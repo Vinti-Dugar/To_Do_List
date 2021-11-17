@@ -1,0 +1,181 @@
+body
+{
+    background-color: rgb(245, 241, 241);
+}
+/* maon box */
+#main
+{
+    border: 2px solid slategrey;
+    margin-top: 10vh;
+    align-items: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    width: 60%;
+    background-color: rgb(236, 231, 231);
+    /* background-color: lightblue; */
+}
+/* project heading */
+#heading
+{
+    /* border: rgb(94, 110, 110) solid 2px; */
+    margin:3px auto auto auto;
+    /* width: 80%; */
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(59, 59, 58);
+    letter-spacing:4px;
+    background-color: rgb(221, 178, 241);
+    text-align: left;
+}
+/* quote box */
+#quote
+{
+    font-family: 'Playball', cursive;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 10px;
+    /* border: 2px solid rebeccapurple; */
+}
+/* add class */
+.comman
+{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid rosybrown; */
+    margin-top: 2%;
+    padding: 5px;
+    width: 70%;
+}
+/* day and date */
+#daydate
+{
+    /* border: 2px slateblue solid; */
+    margin: 20px 0 0 0;
+    padding: 7px;
+    width: 80%;
+    margin: auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 2px;
+    /* font-family: 'Merienda', cursive;
+    font-family: 'Satisfy', cursive; */
+    font-weight: bold; 
+    font-size: 1.2rem;
+}
+#date
+{
+    /* border: 2px solid blue; */
+    padding: 3px;
+    text-align: center;
+
+    /* width: 80%; */
+}
+#days
+{
+    /* border: 2px solid yellow; */
+    padding: 3px;
+    text-align: center;
+    /* width: 40%; */
+    
+}
+/* task input box */
+#inputtask
+{
+    width: 80%;
+    font-family: 'Merienda', cursive;
+    font-family: 'Satisfy', cursive;
+    /* border: tomato 2px solid; */
+}
+#add
+{
+    width: 50%;
+    padding: 6px;
+    margin: 8px 0 5px 0;
+    border-radius: 5px;
+    border: 2px rgb(134, 130, 130) solid;
+    font-family: 'Merienda', cursive;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold; 
+
+}
+/* task list */
+#listeve
+{
+    max-height: 200px;
+    overflow-y: auto;
+    width: 80%;
+    /* border: steelblue 2px solid; */
+}
+#listeve li
+{
+    position: relative;
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 8px;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding: 0 15px;
+    cursor: default;
+    overflow: hidden;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    /* cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s; */
+}
+#listeve li:nth-child(odd) 
+{
+    background: #f9f9f9;
+}
+#listeve li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+/* Darker background-color on hover */
+#listeve li:hover {
+    background: #ddd;
+  }
+.close
+{
+    background-color: gold;
+    position: absolute;
+    right: 0;
+    font-size: 1.5rem;
+    width: 40px;
+}
+#listeve li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+#listeve li.checked {
+    background: rgb(192, 192, 192);
+  /* color: #fff; */
+  text-decoration: line-through;
+    
+  } 
+/* done task indicater */
+#remevent
+{
+    /* border: goldenrod 2px solid; */
+    font-size: 1.5px;
+    text-align: center;
+    font-family: 'Playball', cursive;
+    letter-spacing: 4px;
+
+}
